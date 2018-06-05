@@ -1,0 +1,167 @@
+html, body, .image-section {
+	height: 100%;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	background-color: #000023;
+	color: #788462;
+}
+
+h1, h2 {
+	font-family: 'Lobster', cursive;	
+	/*font-weight: 900;*/
+	color: #e9e9f3;
+}
+
+ul {
+	list-style-image: url('/img/compass.svg');
+}
+
+
+a {
+	color: #61348c;
+}
+
+a:hover {
+	color: #da7069;
+}
+
+*[class*="scroll-block-"] {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+section[class*="scroll-block-"] h2 {
+	margin-top: 1rem;
+	margin-bottom: 1.5rem;
+}
+
+.scroll-block-light {
+	background-color: #e9e9f3;
+	color: #596b31;
+}
+
+.scroll-block-light h2 {
+	color: #000023;
+}
+
+#lenaTop {
+	background-image: url(/img/lena-river-delta.png);
+	height: 85%;
+	background-attachment: fixed;
+	background-position: top;
+}
+
+#title {
+    margin-top: 50px;
+}
+
+#title h6 {
+	background-color: rgba(0, 0, 35, 0.4);
+    padding: 7px 19px;
+    margin-top: -15px;
+    color: #7a9047;
+}
+
+#title img {
+	height: 12px;
+}
+
+.list-icons {
+    font-size: 3rem;
+    color: #a1ad89;
+}
+
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+}
+
+.list-inline-item a:hover {
+	text-decoration: none;
+}
+
+.img-thumbnail {
+	width:;
+}
+
+#mackenzieMid {
+	/*background-image: url(/img/mackenzie-river.png);*/
+	background-image: url(/img/lena-river-delta.png);
+	height: 85%;
+	background-attachment: fixed;
+	background-position: center right;	
+}
+
+#algeriaMid {
+	/*background-image: url(/img/algeria-sahara.png);*/
+	background-image: url(/img/mackenzie-river.png);
+	height: 85%;
+	background-attachment: fixed;
+	background-position: top;	
+}
+
+#lenaBottom {
+	background-image: url(/img/lena-river-delta.png);
+	background-position: center bottom;
+	height: 100%;
+	background-attachment: fixed;
+}
+
+.gallery-row {
+    max-width: 1030px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.portfolio-item {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    max-width: 530px;
+    margin: auto auto 1rem;
+}
+
+a.portfolio-item:hover .caption {
+	background-color: transparent;
+}
+
+.portfolio-item .caption {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 35, 0.24);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+}
+/*
+.col-lg-6 a {
+    -webkit-transition: -webkit-clip-path .25s ease-out,background-color .7s;
+    -webkit-clip-path: inset(0);
+    clip-path: inset(0);
+}
+
+.col-lg-6 a:hover {
+	-webkit-clip-path: inset(2rem);
+	clip-path: inset(2rem);
+}
+
+@media (min-width: 992px) {
+	.portfolio-item .caption{
+	    -webkit-transition: -webkit-clip-path .25s ease-out,background-color .7s;
+	    -webkit-clip-path: inset(0);
+	    clip-path: inset(0);
+	}
+}
+
+@media (min-width: 992px) {
+.portfolio-item:hover .caption {
+    background-color: rgba(29,128,159,.9);
+    -webkit-clip-path: inset(2rem);
+    clip-path: inset(2rem);
+	}
+}
+*/
