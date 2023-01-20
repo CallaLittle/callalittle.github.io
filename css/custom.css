@@ -92,7 +92,7 @@ section[class*="scroll-block-"] h2 {
 	background-image: url(/img/lena-river-delta.png);
 	height: 85%;
 	background-attachment: fixed;
-	background-position: center right;
+	background-position: center right 35%;
 	max-width: 1530px;	
 }
 
